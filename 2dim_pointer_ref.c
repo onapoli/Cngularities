@@ -43,7 +43,7 @@ int     main(void)
     src = "Hello";
     src_len = strlen(src);
     if (!(copy = (char *)malloc(sizeof(char) * (src_len + 1))))
-        return (1);
+        return (-1);
     copy[src_len] = 0;
     ft_copy(&copy, src);
     printf("copy: %s\n", copy);
