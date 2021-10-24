@@ -9,7 +9,7 @@
 **	while ITERATION.
 */
 
-int	ft_copy(char **copy, char *src)
+int	ft_copy(char **copy, char const *src)
 {
 	size_t	len;
     size_t	i;

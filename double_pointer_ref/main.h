@@ -9,6 +9,6 @@
 **	IN wanted.c AND not_wanted.c
 */
 
-int	ft_copy(char **copy, char *src);
+int	ft_copy(char **copy, char const *src);
 
 #endif
