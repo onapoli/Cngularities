@@ -3,7 +3,7 @@
 int	ft_copy(char **copy, char const *src)
 {
 	size_t	len;
-    size_t	i;
+	size_t	i;
 
 	if (!src || !(*src))
 		return (1);

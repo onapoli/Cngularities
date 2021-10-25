@@ -19,7 +19,7 @@ static void	printer(void const *src, size_t const len, int const type)
 		printf("%d", i_src[i]);
 		++i;
 	}
-	printf("\n");	
+	printf("\n");
 }
 
 static void	int_filler(int *dst, int const start_val, size_t const len)

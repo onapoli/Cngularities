@@ -2,12 +2,12 @@
 
 int	main(void)
 {
-    char *res;
+	char	*res;
 
 	res = 0;
-    if (ft_copy(&res, "Hello"))
+	if (ft_copy(&res, "Hello"))
 		return (1);
-    printf("copy: %s\n", res);
-    free(res);
-    return (0);
+	printf("copy: %s\n", res);
+	free(res);
+	return (0);
 }
