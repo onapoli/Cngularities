@@ -34,7 +34,7 @@ int	main(void)
 			break ;
 		printf("\n-- $ No. %ld --\n", i);
 		printf("pos from begin: %ld\n", needle_b - str);
-		if (*needle_a != *str && i)
+		if (i)
 			printf("pos from last $: %ld\n", needle_b - needle_a);
 		printf("word length: %ld\n", word_len(needle_b + 1));
 		needle_a = needle_b + 1;
