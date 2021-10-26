@@ -14,11 +14,6 @@ I know the problem had to do with performing pointer arithmetic incorrectly insi
 gcc -Wall -Wextra -Werror main.c -o example
 ```
 
-OR
-
-```shell
-clang -Wall -Wextra -Werror main.c -o example
-```
 #### Example execution in Unix
 
 ```shell
